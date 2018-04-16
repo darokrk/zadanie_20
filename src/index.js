@@ -5,7 +5,9 @@ import store from './store';
 
 render(
     <Provider store={store}>
-        <h1>Inicjalizacja projektu</h1>
+        <div>
+            <h1>Inicjalizacja projektu</h1>
+        </div>
     </Provider>,
     document.getElementById('root')
 );
