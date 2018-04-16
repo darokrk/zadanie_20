@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 import DevTools from './DevTools';
-import { getCountries } from './actions/actions';
+import { getCountries } from './actions/actions-countries';
 
 render(
     <Provider store={store}>
