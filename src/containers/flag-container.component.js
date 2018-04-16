@@ -10,6 +10,9 @@ class CountryFlagContainer extends Component {
     componentDidMount() {
         this.props.dispatch(getCountries());
     }
+    search(event) {
+        this.props.dispatch(searchCountries(event.target.value));
+    }
     render() {
         return (
             <div>
