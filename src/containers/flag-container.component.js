@@ -26,7 +26,8 @@ class CountryFlagContainer extends Component {
 }
 const mapStateToProps = function (store) {
     return {
-        countries: store.countriesReducer.countries
+        countries: store.countriesReducer.countries,
+        visibleCountries: store.countriesReducer.visibleCountries
     };
 };
 
