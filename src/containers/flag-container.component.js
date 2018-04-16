@@ -13,6 +13,9 @@ class CountryFlagContainer extends Component {
     render() {
         return (
             <div>
+                <div className="search text-center">
+                    <input type="text" onChange={this.search.bind(this)}/>
+                </div>
                 <CountryFlagList countries={this.props.countries} />
             </div>
         )
