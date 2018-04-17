@@ -4,7 +4,7 @@ import countriesData from '../data/countries.json';
 const initialState = {
     countries: countriesData,
     selectedCountry: {},
-    visibleCountries: []
+    visibleCountries: countriesData
 };
 const countriesReducer = function(state = initialState, action) {
     switch (action.type) {
